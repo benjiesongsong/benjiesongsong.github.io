@@ -46,7 +46,7 @@
         <div id="lead-content">
             <h1>Benjie Songsong</h1>
             <h2>Front End Developer</h2>
-            <button><a href="https://docs.google.com/document/d/1rZ22dzeWOomKyJT2JpQNDaIrVl_2osdGtCFoDLfPshQ/edit?usp=sharing" download>Download résumé</a></button>
+            <button><a href="https://drive.google.com/file/d/13iwk5tORDVwPAIXm8j-qnzQd7kIj7k0R/view?usp=sharing" download>Download Résumé</a></button>
         </div>
         <!-- End #lead-content -->
 
@@ -82,6 +82,10 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Dev Experience</h2>
         <div id="experience-timeline">
+            <div data-date="February 2019 – April 2022">
+                <h3>Case-Mate Inc</h3>
+                <h4>Magento/Shopify Front End Developer</h4>
+            </div>
             <div data-date="August 2018 – December 2018">
                 <h3>StartCHURCH</h3>
                 <h4>Marketing Web Developer</h4>
@@ -112,7 +116,7 @@
             <h4>Front End Engineering</h4>
         </div>
         <div class="education-block">
-            <h3>Montclair Statue University</h3>
+            <h3>Montclair State University</h3>
             <span class="education-date">Class of 2015</span>
             <h4>Bachelor of Science in Exercise Science</h4>
         </div>
@@ -132,11 +136,13 @@
             <li>MVC Modeling</li>
             <li>Angular JS</li>
             <li>React</li>
+            <li>Vue</li>
             <li>WordPress</li>
             <li>Webpack</li>
             <li>Twig (PHP)</li>
             <li>Google Analytics and AMP Pages Integration</li>
-            <li>CMS Experience</li>
+            <li>Magento 2 Front End</li>
+            <li>Shopify/ Liquid Theme</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -160,7 +166,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2018 Benjie Songsong
+                        Copyright &copy; <span id="copywrite-year"></span> Benjie Songsong
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -187,7 +193,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://instagram.com/benjiesongsong˙" target="_blank">
+                            <a href="https://instagram.com/senjiebong" target="_blank">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                             </a>
                         </li>
@@ -197,7 +203,10 @@
         </div>
     </footer>
     <!-- End footer -->
-
+    <script>
+        document.getElementById("copywrite-year").innerHTML = new Date().getFullYear();
+    </script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
 </body>
